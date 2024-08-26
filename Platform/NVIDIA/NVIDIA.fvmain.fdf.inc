@@ -264,9 +264,9 @@
   # Logo Files
   #
   FILE FREEFORM = gNVIDIAPlatformLogoGuid {
-    SECTION RAW = Silicon/NVIDIA/Assets/nvidiagray480.bmp
-    SECTION RAW = Silicon/NVIDIA/Assets/nvidiagray720.bmp
-    SECTION RAW = Silicon/NVIDIA/Assets/nvidiagray1080.bmp
+    SECTION RAW = Silicon/NVIDIA/Assets/plantiumgray480.bmp
+    SECTION RAW = Silicon/NVIDIA/Assets/plantiumgray720.bmp
+    SECTION RAW = Silicon/NVIDIA/Assets/plantiumgray1080.bmp
   }
 
 
