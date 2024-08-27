@@ -59,3 +59,20 @@ cp -r Silicon edk2-nvidia
 # Build UEFI
 edk2_docker edk2-nvidia/Platform/NVIDIA/Jetson/build.sh
 ```
+
+# To flash
+
+```
+# Locate the image 
+
+nvidia-uefi/images/uefi_jetson_Release.bin
+
+# Replace the original image in L4T
+
+cp <New Image> Linux_For_Tegra/bootloader/uefi_jetson.bin
+
+# Flash 
+
+sudo ./flash.sh -r -k A_cpu-bootloader jetson-agx-orin-devkit mmcblk0p1
+
+```
